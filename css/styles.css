@@ -22,7 +22,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   height: 105vh;
   overflow-x: hidden;
   margin: 0 20px;
@@ -282,6 +282,14 @@ img {
   width: 100%;
 }
 
+footer {
+  margin: 20px;
+}
+
+.footer__content > a, .footer__link {
+  color: #5cfff3;
+}
+
 @keyframes bgPos {
   0% {
     background-position: 50% 0;
@@ -295,7 +303,7 @@ img {
 @media screen and (max-width: 798px) {
 
   body {
-    margin-top: 300px;
+    margin-top: 95px;
   }
 
   .item {
@@ -305,10 +313,6 @@ img {
 }
 
 @media screen and (max-width: 430px) {
-
-  body {
-    margin-top: 160px;
-  }
 
   .containerHeader {
     width: 22em;
