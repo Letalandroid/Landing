@@ -164,7 +164,7 @@ nav{
 
 nav .contenedor{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .contenedor .containerL{
     display: inherit;
