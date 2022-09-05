@@ -22,9 +22,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap-reverse;
   height: 105vh;
-  overflow: hidden;
-  margin: 0;
+  overflow-x: hidden;
+  margin: 0 20px;
 }
 
 canvas {
@@ -291,4 +292,35 @@ img {
   }
 }
 
+@media screen and (max-width: 798px) {
 
+  body {
+    margin-top: 300px;
+  }
+
+  .item {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media screen and (max-width: 430px) {
+
+  body {
+    margin-top: 160px;
+  }
+
+  .containerHeader {
+    width: 22em;
+    height: 70vh;
+  }
+
+  .card {
+    width: 240px;
+  }
+
+  .item > img {
+    width: 280px;
+  }
+
+}
